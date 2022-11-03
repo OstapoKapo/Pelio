@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polio</title>
+
+    <!--jQuerry-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--jQuerry-->
+
+    <!--Font Poppins 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!--Font Poppins 700-->
+
+    <!--Font DM Sans 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <!--Font DM Sans 700-->
+
+    <!--Font DM Sans 500-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+    <!--Font DM Sans 500-->
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="wrap">
+        <div class="menu">
+            <div class="menu__logo">
+                <div class="menu__logo__img"></div>
+                <div class="menu__logo__name">PELIO</div>
+            </div>
+            <div class="menu__group">
+                <div class="menu__group__item menu__group__item_on">
+                    <div class="menu__group__item__img"></div>
+                    <div class="menu__group__item__text">Dashboard</div>
+                </div>
+                <div class="menu__group__item ">
+                    <div class="menu__group__item__img menu__group__item__img_wallet"></div>
+                    <div class="menu__group__item__text">My Wallet</div>
+                </div>
+                <div class="menu__group__item">
+                    <div class="menu__group__item__img menu__group__item__img_payment"></div>
+                    <div class="menu__group__item__text">Payment</div>
+                </div>
+                <div class="menu__group__item">
+                    <div class="menu__group__item__img menu__group__item__img_invoice"></div>
+                    <div class="menu__group__item__text">Invoice</div>
+                </div>
+                <div class="menu__group__item">
+                    <div class="menu__group__item__img menu__group__item__img_setting"></div>
+                    <div class="menu__group__item__text">Setting</div>
+                </div>
+                <div class="menu__group__item">
+                    <div class="menu__group__item__img menu__group__item__img_transactions"></div>
+                    <div class="menu__group__item__text">Transactions</div>
+                </div>
+            </div>
+            <div class="menu__footer">
+                
+                <div class="menu__footer__header">Payment Admin Dashboard</div>
+                <div class="menu__footer__text">© 2010-2021 All rights reserved.</div>
+                <div class="menu__footer__text">Made by ❤️  Md Shamim Hossain</div>
+            </div>
+        </div>
+        <div class="mainScreen">
+            <div class="header">
+                <div class="header__nameSection">
+                    <div class="header__nameSection__img"></div>
+                </div>
+
+                <div class="header__searchBlock">
+                    <input type="text" placeholder="Search Here..." class="header__searchBlock__inp"></input>
+                    <div class="header__searchBlock__img"></div>
+                </div>
+
+                <div class="header__bellItem">
+                    <div class="header__bellItem__img"></div>
+                    <div class="header__bellItem__round">5</div>
+                </div>
+
+                <div class="header__emailItem">
+                    <div class="header__emailItem__img"></div>
+                    <div class="header__emailItem__round">23</div>
+                </div>
+                <div class="header__login">
+                    <div class="header__login__ava">
+                    </div>
+                    <div class="header__login__text">
+                      <div class="header__login__text__header">Hi Shamim</div>
+                      <div class="header__login__text__email">engshamim@gmail.com</div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="statGroup">
+                <div class="statGroup__item statGroup__item_first">
+                    <div class="statGroup__item__img">
+                        <img src="img/invoice.png" alt="invoice">
+                    </div>
+                    <div class="statGroup__item__textGroup">
+                        <div class="statGroup__item__textGroup__header">32,568</div>
+                        <div class="statGroup__item__textGroup__underHeader">Total Invoices</div>
+                    </div>
+                </div>
+                <div class="statGroup__item statGroup__item_second">
+                    <div class="statGroup__item__img">
+                        <img src="img/check 1.png" alt="invoice">
+                    </div>
+                    <div class="statGroup__item__textGroup">
+                        <div class="statGroup__item__textGroup__header">8,558</div>
+                        <div class="statGroup__item__textGroup__underHeader">Paid Invoices</div>
+                    </div>
+                </div>
+                <div class="statGroup__item statGroup__item_third">
+                    <div class="statGroup__item__img">
+                        <img src="img/close 1.png" alt="invoice">
+                    </div>
+                    <div class="statGroup__item__textGroup">
+                        <div class="statGroup__item__textGroup__header">2,568</div>
+                        <div class="statGroup__item__textGroup__underHeader">Unpaid Invoices</div>
+                    </div>
+                </div>
+                <div class="statGroup__item statGroup__item_forth">
+                    <div class="statGroup__item__img">
+                        <img src="img/invoice (1) 1.png" alt="invoice">
+                    </div>
+                    <div class="statGroup__item__textGroup">
+                        <div class="statGroup__item__textGroup__header">668</div>
+                        <div class="statGroup__item__textGroup__underHeader">Total Invoices Sent</div>
+                    </div>
+                </div>
+            </div>
+            <div class="transactionGroup">
+                <div class="latestTransactions">
+                    <div class="latestTransactions__header">Latest Transactions</div>
+                    <div class="latestTransactions__row">
+                        <div class="latestTransactions__row__company">
+                            <div class="latestTransactions__row__company__block"></div>
+                            <div class="latestTransactions__row__company__textGroup">
+                                <div class="latestTransactions__row__company__textGroup__text">#KLA-237-393-950</div>
+                                <div class="latestTransactions__row__company__textGroup__header">CodeAstrology.com</div>
+                            </div>
+                        </div>
+                        <div class="latestTransactions__row__amount">
+                            <div class="latestTransactions__row__amount__block">
+                                <div class="latestTransactions__row__amount__img"></div>
+                            </div>
+                            <div class="latestTransactions__row__amount__textGroup">
+                                <div class="latestTransactions__row__amount__textGroup__text">Amount</div>
+                                <div class="latestTransactions__row__amount__textGroup__header">$ 4,67,859</div>
+                            </div>
+                        </div>
+                        <div class="latestTransactions__row__timeText">5 min ago</div>
+                        <div class="latestTransactions__row__printer"></div>
+                        <div class="latestTransactions__row__threePoints"></div>
+                    </div>
+                    <div class="latestTransactions__row">
+                        <div class="latestTransactions__row__company">
+                            <div class="latestTransactions__row__company__block latestTransactions__row__company__block_second"></div>
+                            <div class="latestTransactions__row__company__textGroup">
+                                <div class="latestTransactions__row__company__textGroup__text latestTransactions__row__company__textGroup__text_second">#KLA-237-393-950</div>
+                                <div class="latestTransactions__row__company__textGroup__header">HSJ Express.com</div>
+                            </div>
+                        </div>
+                        <div class="latestTransactions__row__amount">
+                            <div class="latestTransactions__row__amount__block latestTransactions__row__amount__block_second">
+                                
+                            </div>
+                            <div class="latestTransactions__row__amount__textGroup">
+                                <div class="latestTransactions__row__amount__textGroup__text">Amount</div>
+                                <div class="latestTransactions__row__amount__textGroup__header">$89,8599</div>
+                            </div>
+                        </div>
+                        <div class="latestTransactions__row__timeText">5 min ago</div>
+                        <div class="latestTransactions__row__printer"></div>
+                        <div class="latestTransactions__row__threePoints"></div>
+                    </div>
+                    <div class="latestTransactions__row">
+                        <div class="latestTransactions__row__company__block latestTransactions__row__company__block_third"></div>
+                        <div class="latestTransactions__row__company__textGroup">
+                            <div class="latestTransactions__row__company__textGroup__text">#KLA-237-393-950</div>
+                            <div class="latestTransactions__row__company__textGroup__header">HSJ Express.com</div>
+                        </div>
+                        <div class="latestTransactions__row__amount">
+                            <div class="latestTransactions__row__amount__block latestTransactions__row__amount__block_third">
+                             
+                            </div>
+                            <div class="latestTransactions__row__amount__textGroup">
+                                <div class="latestTransactions__row__amount__textGroup__text">Amount</div>
+                                <div class="latestTransactions__row__amount__textGroup__header">$ 3,43,67,859</div>
+                            </div>
+                        </div>
+                        <div class="latestTransactions__row__timeText">5 min ago</div>
+                        <div class="latestTransactions__row__printer"></div>
+                        <div class="latestTransactions__row__threePoints"></div>
+                    </div>
+                    <div class="latestTransactions__row">
+                        <div class="latestTransactions__row__company__block latestTransactions__row__company__block_forth"></div>
+                        <div class="latestTransactions__row__company__textGroup">
+                            <div class="latestTransactions__row__company__textGroup__text">#KLA-237-393-950</div>
+                            <div class="latestTransactions__row__company__textGroup__header">HSJ Express.com</div>
+                        </div>
+                        <div class="latestTransactions__row__amount">
+                            <div class="latestTransactions__row__amount__block latestTransactions__row__amount__block_forth">
+                                
+                            </div>
+                            <div class="latestTransactions__row__amount__textGroup">
+                                <div class="latestTransactions__row__amount__textGroup__text">Amount</div>
+                                <div class="latestTransactions__row__amount__textGroup__header">$ 2,07,859</div>
+                            </div>
+                        </div>
+                        <div class="latestTransactions__row__timeText">5 min ago</div>
+                        <div class="latestTransactions__row__printer"></div>
+                        <div class="latestTransactions__row__threePoints"></div>
+                    </div>
+                    <div class="transactionGroup__pagonations">
+                        <div class="transactionGroup__pagonations__text">Showing <span class="transactionGroup__pagonations__textSpan">1-4</span>  from <span class="transactionGroup__pagonations__textSpan">60</span> Data</div>
+                        <div class="transactionGroup__pagonations__btnLeft">
+                           <div class="transactionGroup__pagonations__btnLeft__text">➜</div>  
+                        </div>
+                        <div class="transactionGroup__pagonations__btn transactionGroup__pagonations__btn_active">1</div>
+                        <div class="transactionGroup__pagonations__btn">2</div>
+                        <div class="transactionGroup__pagonations__btn transactionGroup__pagonations__btn_margin">3</div>
+                        <div class="transactionGroup__pagonations__btnRight">
+                            <div class="transactionGroup__pagonations__btnRight__text">➜</div>  
+                         </div>
+                    </div>
+                </div>
+                <div class="statistics">
+                    <div class="statistics__header">Statistics</div>
+                    <div class="statistics__diagram"></div>
+                </div>
+            </div>
+            <div class="footerGroup">
+                <div class="footerGroup__row">
+                  <div class="footerGroup__row__card">
+                    <div class="footerGroup__row__card__header">Balance</div>
+                    <div class="footerGroup__row__card__textRow">
+                        <div class="footerGroup__row__card__textRow__price">$ 4,929</div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle footerGroup__row__card__textRow__circle_margin"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle footerGroup__row__card__textRow__circle_margin"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle"></div>
+                        <div class="footerGroup__row__card__textRow__circle footerGroup__row__card__textRow__circle_margin"></div>
+                        <div class="footerGroup__row__card__textRow__cardNumber">3456</div>
+                    </div>
+                    <div class="footerGroup__row__card__infoRow">
+                        <div class="footerGroup__row__card__infoRow__date">
+                         <div class="footerGroup__row__card__infoRow__date__header">Valid Thru</div>
+                         <div class="footerGroup__row__card__infoRow__date__header__text">03/23</div>
+                        </div>
+                        <div class="footerGroup__row__card__infoRow__name">
+                            <div class="footerGroup__row__card__infoRow__name__header">Name</div>
+                            <div class="footerGroup__row__card__infoRow__name__header__text">Jhon Doe</div>
+                        </div>
+                        <div class="footerGroup__row__card__infoRow__img"></div>
+                    </div>
+                  </div>  
+                  <div class="footerGroup__row__transactions">
+                    <div class="footerGroup__row__transactions__left">
+                        <div class="footerGroup__row__transactions__left__header">Transactions</div>
+                        <div class="footerGroup__row__transactions__left__text">5,793</div>
+                    </div>
+                    <div class="footerGroup__row__transactions__right">
+                        <div class="footerGroup__row__transactions__right__img"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footerGroup__balanceDetails">
+                    <div class="footerGroup__balanceDetails__header">Balance Details</div>
+                    <div class="footerGroup__balanceDetails__text">Total Balance <br> <span class="footerGroup__balanceDetails__text__span">$221,478</span></div>
+                    <div class="footerGroup__balanceDetails__blockGroup">
+                        <div class="footerGroup__balanceDetails__blockGroup__row">
+                            <div class=" footerGroup__balanceDetails__blockGroup__row__block_active">
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__header footerGroup__balanceDetails__blockGroup__row__block__header_active">Last Month</div>
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__text footerGroup__balanceDetails__blockGroup__row__block__text_active">$ 14,849</div>
+                            </div>
+
+                            <div class="footerGroup__balanceDetails__blockGroup__row__block">
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__header">Last Month</div>
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__text">$ 14,849</div>
+                            </div>
+                        </div>
+                        <div class="footerGroup__balanceDetails__blockGroup__row">
+                            <div class="footerGroup__balanceDetails__blockGroup__row__block">
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__header">Last Month</div>
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__text">$ 14,849</div>
+                            </div>
+
+                            <div class="footerGroup__balanceDetails__blockGroup__row__block">
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__header">Last Month</div>
+                                <div class="footerGroup__balanceDetails__blockGroup__row__block__text">$ 14,849</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footerGroup__activity">
+                    <div class="footerGroup__balanceDetails__text">Activivty<br> <span class="footerGroup__balanceDetails__text__span">$48,284</span></div> 
+                    <div class="footerGroup__activity__diagram"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="placeHolder">
+        <div class="wrap__header" id="wrap__header">Enter Information</div>
+        <div class="wrap__inputGroup" id="wrap__inputGroup">
+            <input type="text" placeholder="your name" class="wrap__inputGroup__inp wrap__inputGroup__inp_first" id="inpName" >
+            <input type="text" placeholder="your surname" class="wrap__inputGroup__inp" id="inpSurname">
+        </div>
+        <div class="placeHolder__btn">Enter</div>
+    </div> -->
+
+    <script src="main.js"></script>
+</body>
+</html>
